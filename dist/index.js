@@ -70,11 +70,9 @@ var Dryad =
 
 "use strict";
 
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(1));
+const Sprite_1 = __webpack_require__(1);
+exports.Sprite = Sprite_1.Sprite;
 
 
 /***/ }),
