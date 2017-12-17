@@ -2,7 +2,7 @@
   "name": "dryad",
   "version": "1.0.0",
   "description": "Dryad",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dist": "webpack",
     "test": "mocha -r ts-node/register test/**/*.ts",
