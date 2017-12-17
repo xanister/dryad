@@ -1,0 +1,41 @@
+{
+  "name": "dryad",
+  "version": "1.0.0",
+  "description": "Dryad",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack",
+    "test": "mocha -r ts-node/register test/**/*.ts",
+    "watch": "webpack --watch"
+  },
+  "pre-commit": [
+    "dist",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanister/dryad.git"
+  },
+  "author": "Nicholas Frees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xanister/dryad/issues"
+  },
+  "homepage": "https://github.com/xanister/dryad#readme",
+  "dependencies": {
+    "@types/chai": "*",
+    "@types/jsdom": "*",
+    "@types/mocha": "*",
+    "chai": "*",
+    "jsdom": "*",
+    "jsdom-global": "*",
+    "json-loader": "*",
+    "mocha": "*",
+    "mocha-jsdom": "*",
+    "pre-commit": "*",
+    "ts-loader": "*",
+    "ts-node": "*",
+    "typescript": "*",
+    "webpack": "*"
+  }
+}
